@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "bun run --filter './apps/web' dev",
     "build": "bun run --filter './apps/web' build",
+    "start": "bun run --filter './apps/web' build && cd apps/web && node build",
     "dev:api": "bun run --filter './apps/api' dev"
   }
 }

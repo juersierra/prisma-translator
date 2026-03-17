@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+# Railway will run this command from the project root.
+# It installs dependencies, builds the web app, then starts the Node server from the SvelteKit Node adapter.
+startCommand = "bun install && bun start"
+
