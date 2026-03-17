@@ -1,6 +1,6 @@
 ## Prisma Translator
 
-**Try it: https://prisma-translator.up.railway.app/
+**Try it: https://prisma-translator.up.railway.app/**
 
 **Prisma Translator** is a developer tool that lets you paste a Prisma schema and a Prisma-style query, then instantly see:
 
