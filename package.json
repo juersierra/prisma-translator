@@ -1,0 +1,10 @@
+{
+  "name": "prisma-translator",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "bun run --filter './apps/web' dev",
+    "build": "bun run --filter './apps/web' build",
+    "dev:api": "bun run --filter './apps/api' dev"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/juersierra/.bun/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(/Users/juersierra/.bun/bin/bun pm:*)",
+      "Bash(/Users/juersierra/.bun/bin/bun --version)",
+      "Bash(ls:*)",
+      "Bash(/Users/juersierra/.bun/bin/bun ls:*)",
+      "Bash(grep:*)",
+      "Bash(/Users/juersierra/.bun/bin/bun install:*)",
+      "Bash(/Users/juersierra/.bun/bin/bun run:*)",
+      "Bash(cat:*)"
+    ]
+  }
+}
